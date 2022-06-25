@@ -47,3 +47,13 @@ _configure env_
 
 - yarn add -D cross-env
 - configure package.json
+
+_configure storybook_
+
+- npx sb init --builder webpack5
+- configure .eslinttrc and package.json
+- yarn install
+
+`npx storybook@next automigrate`
+
+- run storybook `yarn storybook`
