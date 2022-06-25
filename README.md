@@ -57,5 +57,3 @@ _configure storybook_
 `npx storybook@next automigrate`
 
 - run storybook `yarn storybook`
-
-git commit -m "feat: BaseTemplate component"
