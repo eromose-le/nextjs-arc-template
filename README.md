@@ -10,7 +10,9 @@ A next project that showcase best practices and scalable architecture design
 
 _init git_
 
-- add remote repo
+- git add remote repo
+- git add .
+- git commit -m "docs: first commit"
 
 _configure lint_
 
@@ -36,3 +38,12 @@ _configure git commit lint_
 - yarn add -D @commitlint/config-conventional @commitlint/cli
 - configure husky file
 - npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+
+_configure vscode_
+
+- configure .vscode folder
+
+_configure env_
+
+- yarn add -D cross-env
+- configure package.json
