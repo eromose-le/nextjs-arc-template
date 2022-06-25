@@ -30,3 +30,9 @@ _husky_
 - npx husky add .husky/pre-commit "yarn lint"
 - npx husky add .husky/pre-push "yarn build"
 - configure files
+
+_configure git commit lint_
+
+- yarn add -D @commitlint/config-conventional @commitlint/cli
+- configure husky file
+- npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
