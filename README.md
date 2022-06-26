@@ -57,3 +57,5 @@ _configure storybook_
 `npx storybook@next automigrate`
 
 - run storybook `yarn storybook`
+
+TODO: configure tailwind, postcss

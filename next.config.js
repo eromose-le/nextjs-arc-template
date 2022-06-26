@@ -9,6 +9,7 @@ const nextConfig = {
     defaultLocale: 'en',
     // localeDetection: false,
   },
+  pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
 };
 
 module.exports = nextConfig;
